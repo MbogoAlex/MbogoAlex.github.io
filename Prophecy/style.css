@@ -101,6 +101,7 @@ footer .flex {
   .head {
   	flex-direction: column;
   	padding: 10px;
+  	height: 20vh
   }
 
   .nav {

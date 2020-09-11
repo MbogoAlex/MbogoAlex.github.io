@@ -10,16 +10,105 @@ body {
 
 }
 
-main {
-	padding: 0 70px 0 70px;
-	 height: 68vh;
-}
+
 
 .book {
 	text-align: center;
 }
 
-.section {
+
+
+.footer {
+	/*height: 15vh;*/
+	
+  	display: flex;
+   background: rgb(235, 235, 235);
+    /*position: relative;/*Or relative if height is more than height of page*/
+    height: 20vh;
+    /*width: 100vw;*/
+    /*left: 0px;*/
+    /*bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;*/
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 0;*/
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+  	background: url(img/book.jpg) -200px, 0px;
+  	overflow-x: hidden;
+  	margin: 0;
+  	padding: 0;
+
+
+  }
+
+  .head {
+  	height: 20vh;
+
+  	
+  }
+
+  main {
+  	height: auto;
+  	
+  }
+
+ 
+
+
+
+  .section {
+  	width: 100%;
+  	float: none;
+  	text-shadow: 1px 1px #bef3f7;
+  	font-weight: bold;
+  	height: auto;
+  	text-align: center;
+
+
+  }
+
+  .section2 {
+  	width: 100%;
+  	float: none;
+  	text-shadow: 1px 1px #bef3f7;
+  	font-weight: bold;
+  	height: auto;
+  	text-align: center;
+
+  }
+
+  .footer {
+  	
+
+  display: flex;
+   background: rgb(235, 235, 235);
+    position: relative;/*Or relative if height is more than height of page*/
+    height: 20vh;
+    /*width: 100vw;*/
+    /*left: 0px;*/
+    /*bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;*/
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 0;*/
+  	
+  	
+  }
+}
+
+@media only screen and (min-width: 768px) {
+	main {
+	padding: 0 70px 0 70px;
+	height: 68vh;
+}
+
+	.section {
 	width: 40%; 
 	text-align: center; 
 	float: left
@@ -30,54 +119,4 @@ main {
 	text-align: center; 
 	float: right;
 }
-
-.footer {
-	/*height: 15vh;*/
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-  	background: url(img/book.jpg) -200px, 0px;
-
-  }
-
-  .head {
-  	height: 50px;
-  	
-  	
-  }
-
-  .wrapper {
-  	
-  	max-width: 1200px;
-  	margin: 0 auto;
-  	position: relative;
-  	
-  	
-  }
-
-
-
-  .section {
-  	width: 100%;
-  	float: none;
-  	text-shadow: 1px 1px #bef3f7;
-  	font-weight: bold;
-
-  }
-
-  .section2 {
-  	width: 100%;
-  	float: none;
-  	text-shadow: 1px 1px #bef3f7;
-  	font-weight: bold;
-
-  }
-
-  .footer {
-  	position: relative;
-  
-  	
-  	
-  }
 }
