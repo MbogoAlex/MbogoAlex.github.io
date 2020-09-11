@@ -25,7 +25,7 @@ body {
    background: rgb(235, 235, 235);
     /*position: relative;/*Or relative if height is more than height of page*/
     height: 20vh;
-    /*width: 100vw;*/
+    width: 100vw;
     /*left: 0px;*/
     /*bottom: 0px;
     padding-bottom: 20px;
@@ -38,7 +38,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
-  	background: url(img/book.jpg) -200px, 0px;
+  	background: url(img/book.jpg) -230px, 0px;
   	overflow-x: hidden;
   	margin: 0;
   	padding: 0;
